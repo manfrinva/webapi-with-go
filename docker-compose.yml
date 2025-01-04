@@ -18,6 +18,5 @@ services:
       PGDATA: /var/lib/postgresql/data/webapi-mvc
     volumes:
       - webapi-mvc:/var/lib/postgresql/data
-
 volumes:
   webapi-mvc:
